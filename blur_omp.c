@@ -356,7 +356,7 @@ int main(int argc, char ** argv)
     free (dataG);
 
     prog_end = omp_get_wtime();
-    printf("total execution time = %fs\n", prog_end-prog_start);
+    // printf("total execution time = %fs\n", prog_end-prog_start);
 
     return ret_code;
 }
